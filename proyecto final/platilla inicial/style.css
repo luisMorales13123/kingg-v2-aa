@@ -2,8 +2,7 @@
 *{
     box-sizing: border-box;
     padding: 0%;
-    margin: 0;
-    font-family: 'Oswald', sans-serif;
+    margin: 0;    font-family: 'Oswald', sans-serif;
 }
 body{
     background: url(/ima/asdadasd.png);
@@ -11,10 +10,11 @@ body{
 :root{
     /*COLOR*/
     --body-color:rgb(91, 200, 243);
-    --text-color:rgb(0, 0, 0);
-    --background-color:#a3d2f1 ;
+    --text-color:rgb(255, 255, 255);
+    --background-color:#366f96 ;
     --efecto-hover:rgb(155, 255, 242);
     --text-color-hover:rgb(7, 7, 7);
+    --text-tittle:rgb(255, 255, 255);
     /*transiciones*/
     transition: 4s;
 }
@@ -56,10 +56,56 @@ align-items: center;
     margin-top: px;
 
 }
+h1{
+    padding: 20px;
+    margin-left: 300px;
+    color: var(--text-tittle);
+    font-size: 30px;
+}
 /*EFECTO HOVER*/
 .opciones:hover{
     background-color:var(--efecto-hover) ;
     color: var(--text-color-hover);
     border-radius: 19px;
     transition: 1s;
+}
+
+/*CATALOGO*/
+
+
+.contenedor{
+background-color: black;
+    margin: 0;
+    height: 800px;
+    
+}
+.nombre{
+    position: relative;
+    color: var(--text-color);
+    font-size: 80px;
+top: 100px;
+    margin: none;
+
+    
+}
+.imagen-1 img{
+position: relative;
+left: 850px;
+bottom: 20px;
+}
+.imagen-2{
+    position: relative;
+    bottom: 610px;
+    left: 990px;
+    width: 1000px;
+}
+.BOTON{
+    text-decoration: none;
+    background-color: var(--background-color);
+    color:var(--text-color);
+    font-size: 40px;
+    border-radius: 10px;
+    position: relative;
+    left: 1450px;
+    bottom: 650px;
 }
