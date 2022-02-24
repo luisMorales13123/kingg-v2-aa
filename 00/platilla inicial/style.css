@@ -1,0 +1,141 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;    font-family: 'Oswald', sans-serif;
+    
+}
+body{
+    background: url(/ima/asdadasd.png);
+}
+:root{
+    /*COLOR*/
+    --body-color:rgb(91, 200, 243);
+    --text-color:rgb(255, 255, 255);
+    --background-color:#366f96 ;
+    --efecto-hover:rgb(155, 255, 242);
+    --text-color-hover:rgb(7, 7, 7);
+    --text-tittle:rgb(255, 255, 255);
+    /*transiciones*/
+    transition: 4s;
+}
+/*HEADER*/
+header{
+    background-color: var(--background-color);
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        padding: 15px;
+        margin: 2px;
+     
+    }
+    .opciones{
+      margin-left: 20px;
+        list-style: none;
+        color: var(--text-color);
+        padding: 8px;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    .icon{
+     
+    align-items: center;
+    }
+    .logo{
+        padding: 5px;
+        text-align: center;
+        font-size: 20px;
+        margin-top: px;
+    
+    }
+    h1{
+        padding: 20px;
+        margin-left: 300px;
+        color: var(--text-tittle);
+        font-size: 30px;
+    }
+    /*EFECTO HOVER*/
+    .opciones:hover{
+        background-color:var(--efecto-hover) ;
+        color: var(--text-color-hover);
+        border-radius: 19px;
+        transition: 1s;
+    }
+    
+    /*CATALOGO*/
+    
+    
+    .contenedor{
+    background-color: black;
+        margin: 0;
+        height: 800px;
+        width: 1665px;
+        display: flex;
+    }
+    .nombre{
+        position: relative;
+        color: var(--text-color);
+        font-size: 80px;
+    top: 100px;
+        margin: none;
+    
+        
+    }
+    .imagen-1 img{
+    position: absolute;
+    left: 750px;
+    bottom: 40px;
+    }
+    .imagen-2{
+        position: absolute;
+        bottom: -10px;
+        left: 890px;
+    
+    }
+    .BOTON{
+        text-decoration: none;
+        background-color: var(--background-color);
+        color:var(--text-color);
+        font-size: 40px;
+        border-radius: 10px;
+        position: absolute;
+        left: 1400px;
+        top: 780px;
+    }
+    /*CONTENEDOR 2*/
+    .contenedor-2{
+    border: 2px dashed steelblue;
+        background-image: url(/ima/fondo-3.jpg);
+    position: relative;
+    height: 800px;
+    width: 1665px;
+    display: flex;
+    }
+    .Omkara{
+        
+        display: flex;
+        position:absolute ;
+      background-position: 100%;
+      left: 600px;
+      width: 900px ;
+    }
+    
+    .BOTON-2{
+        text-decoration: none;
+        background-color: var(--background-color);
+        color:var(--text-color);
+        font-size: 40px;
+        border-radius: 10px;
+        position: absolute;
+    left: 1400px;
+        top: 650px;
+    }
+    .prueba{
+        position: relative;
+    }
